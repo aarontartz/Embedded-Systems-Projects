@@ -1,2 +1,4 @@
 # Embedded-Systems-Projects
-Laboratory Projects for COMPE-375 (Embedded Systems)
+Relatively simple microcontroller projects that can contain useful code to be referenced for future, more advanced projects.
+
+Includes projects for COMPE-375 (Embedded Systems) laboratory
