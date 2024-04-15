@@ -1,0 +1,4 @@
+# COMPE-375 Project 1
+The program flashes the on-board LED on and off in a pattern that can be translated into morse code, according to the string variable “s.” In this program, each dot is represented by a 200ms pause of the LED remaining on, and dashes 600ms. This program runs continuously in an infinite loop by having the main function call a separate function that refers to many conditional statements.
+## Main algorithm/logic
+The function “morse()” contains the conditional branches that translate the English string into morse code. It does this by calling separate functions which contain how long the LED will turn on and off, namely “dot(),” “dash(),” and “space().” Finally, “main()” contains “morse()” inside an infinite while loop, which will repeatedly call this function forever, and consequently repeat the string held in the variable “s” translated into morse code via the LED.	
